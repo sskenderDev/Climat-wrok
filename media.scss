@@ -1,0 +1,789 @@
+@media (max-width: 570px) {
+  .container {
+    width: 90%;
+  }
+  #header {
+    .header {
+      &--one {
+        &__three {
+          display: none;
+        }
+
+        &__fore {
+          display: none;
+        }
+
+        &__five {
+          display: none;
+        }
+
+        &__btn {
+          display: none;
+        }
+      }
+
+      .menu__btn {
+        left: 32rem;
+      }
+    }
+
+    .hero {
+      &--two {
+        width: 90%;
+        display: block;
+
+        h3 {
+          padding: 16px 0;
+        }
+      }
+
+      &--three {
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      &--fore {
+        justify-content: space-around;
+        display: block;
+        &__five{
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+  #nav {
+    .nav {
+      &--one {
+        h3 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #featured {
+    .featured {
+      &--one {
+        &__three {
+          font-size: 10px;
+        }
+
+        &__fore {
+          p {
+            font-size: 8px;
+          }
+        }
+
+        &__two {
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+
+      &--two10 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 1rem;
+      }
+
+      &--two11 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 1rem;
+      }
+
+      &--two12 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 1rem;
+      }
+    }
+  }
+  #product {
+    .product {
+      &--one {
+        &__two {
+          img {
+            width: 14rem;
+            height: 26rem;
+            margin-left: 0;
+          }
+        }
+
+        &__three {
+          &--title {
+            p {
+              font-size: 8px;
+            }
+          }
+
+          &--logo {
+            p {
+              font-size: 9px;
+            }
+          }
+
+          &--fore {
+            p {
+              font-size: 10px;
+
+            }
+          }
+
+          &--five {
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  #card {
+    .card {
+      &--one {
+        width: 99%;
+        left: 2px;
+        height: 52rem;
+
+        h1 {
+          font-size: 25px;
+        }
+
+        &__two {
+          width: 78%;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+  #work {
+    .work {
+      &--one {
+        h1 {
+          margin-top: 50rem;
+        }
+      }
+    }
+  }
+  #option {
+    .option {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--title {
+        font-size: 15px;
+      }
+    }
+  }
+  #index {
+    .index {
+      &--one {
+        &__two {
+          .tab label {
+            font-size: 10px;
+          }
+
+          .tab-content p {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  #one {
+    background: url("/img/back white.png");
+
+    .one {
+      &--two {
+        &__three {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+  #header {
+    .header {
+      &--one {
+        &__three {
+          display: none;
+        }
+
+        &__fore {
+          display: none;
+        }
+
+        &__five {
+          display: none;
+        }
+
+        &__btn {
+          display: none;
+        }
+      }
+
+      .menu__btn {
+        left: 23rem;
+      }
+    }
+  }
+  .hero {
+    &--two {
+      width: 90%;
+      display: block;
+      text-align: center;
+
+      h3 {
+        padding: 16px 0;
+      }
+
+      &__modal {
+        &--block {
+          &__gen {
+            p {
+              font-size: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    &--three {
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    &--fore {
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 20px;
+    }
+  }
+  #nav {
+    .nav {
+      &--one {
+        h3 {
+          font-size: 27px;
+        }
+      }
+
+    }
+  }
+  #featured {
+    .featured {
+      &--one {
+        &__three {
+          font-size: 8px;
+        }
+
+        &__fore {
+          p {
+            font-size: 6px;
+          }
+        }
+
+        &__two {
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+      }
+
+      &--two10 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 62px;
+      }
+
+      &--two11 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 62px;
+      }
+
+      &--two12 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 62px;
+      }
+    }
+  }
+  #product {
+    .product {
+      &--one {
+        display: block;
+        margin-left: 100px;
+        padding-bottom: 20px;
+        &__two {
+          img {
+            width: 12rem;
+            height: 18rem;
+            margin-left: 0;
+          }
+        }
+
+        &__three {
+          &--title {
+            p {
+              font-size: 4px;
+            }
+          }
+
+          &--logo {
+            p {
+              font-size: 5px;
+            }
+          }
+
+          &--fore {
+            p {
+              font-size: 6px;
+
+            }
+          }
+
+          &--five {
+            p {
+              font-size: 5px;
+            }
+          }
+        }
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+  #card {
+    .card {
+      &--one {
+        width: 99%;
+        left: 2px;
+        height: 52rem;
+
+        h1 {
+          font-size: 20px;
+        }
+
+        h4 {
+          font-size: 13px;
+        }
+
+        &__two {
+          width: 78%;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+  #work {
+    .work {
+      &--one {
+        h1 {
+          margin-top: 50rem;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #option {
+    .option {
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      display: block;
+      text-align: center;
+      padding: 0 0;
+      align-items: flex-start;
+      &--two {
+        padding: 30px 0;
+      }
+
+      &--title {
+        font-size: 15px;
+        margin-left: 74px;
+
+        &__fore {
+          &--nav {
+            a {
+              font-size: 17px;
+            }
+          }
+        }
+
+        &__python {
+          margin-left: -61px;
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+  #index {
+    .index {
+      &--one {
+        &__two {
+          .tab label {
+            font-size: 7px;
+          }
+
+          .tab-content p {
+            font-size: 7px;
+          }
+        }
+
+        &__btn {
+          button {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  #style {
+    .style {
+      &--one {
+        h1 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #one {
+    background: url("/img/back white.png");
+
+    .one {
+      &--two {
+        &__three {
+          display: block;
+          text-align: center;
+
+          img {
+            padding: 10px 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  #header {
+    .header {
+      &--one {
+        &__three {
+          display: none;
+        }
+
+        &__fore {
+          display: none;
+        }
+
+        &__five {
+          display: none;
+        }
+
+        &__btn {
+          display: none;
+        }
+      }
+
+      .menu__btn {
+        left: 17rem;
+      }
+    }
+  }
+  .hero {
+    &--two {
+      width: 90%;
+      display: block;
+      text-align: center;
+
+      h3 {
+        padding: 16px 0;
+      }
+
+      &__modal {
+        &--block {
+          &__gen {
+            p {
+              font-size: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    &--three {
+      h1 {
+        font-size: 15px;
+      }
+    }
+
+    &--fore {
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: -20px;
+    }
+  }
+  #nav {
+    .nav {
+      &--one {
+        h3 {
+          font-size: 21px;
+        }
+      }
+
+    }
+  }
+  #featured {
+    .featured {
+      &--one {
+        &__three {
+          font-size: 8px;
+        }
+
+        &__fore {
+          p {
+            font-size: 6px;
+          }
+        }
+
+        &__two {
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+      }
+
+      &--two10 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 18px;
+      }
+
+      &--two11 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 18px;
+      }
+
+      &--two12 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-left: 18px;
+      }
+    }
+  }
+  #product {
+    .product {
+      &--one {
+        display: block;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        &__two {
+          img {
+            width: 12rem;
+            height: 18rem;
+            margin-left: 0;
+          }
+        }
+
+        &__three {
+          &--title {
+            p {
+              font-size: 4px;
+            }
+          }
+
+          &--logo {
+            p {
+              font-size: 5px;
+            }
+          }
+
+          &--fore {
+            p {
+              font-size: 6px;
+
+            }
+          }
+
+          &--five {
+            p {
+              font-size: 5px;
+            }
+          }
+        }
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+  #card {
+    .card {
+      &--one {
+        width: 99%;
+        left: 2px;
+        height: 52rem;
+
+        h1 {
+          font-size: 17px;
+        }
+
+        h4 {
+          font-size: 13px;
+        }
+
+        &__two {
+          width: 78%;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+  #work {
+    .work {
+      &--one {
+        h1 {
+          margin-top: 50rem;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #option {
+    .option {
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      display: block;
+      text-align: center;
+      padding: 0 0;
+      align-items: flex-start;
+      &--two {
+        padding: 30px 0;
+      }
+
+      &--title {
+        font-size: 15px;
+        margin-left: 32px;
+        &__three{
+          &--fore{
+            a{
+              font-size: 13px;
+            }
+          }
+        }
+      &__five{
+        &--items{
+          h5{
+            font-size: 13px;
+          }
+        }
+      }
+        &__fore {
+          &--nav {
+            a {
+              font-size: 13px;
+            }
+          }
+        }
+
+        &__python {
+          margin-left: -25px;
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+  #index {
+    .index {
+      &--one {
+        h1{
+          font-size: 20px;
+        }
+        &__two {
+          .tab label {
+            font-size: 6px;
+          }
+
+          .tab-content p {
+            font-size: 7px;
+          }
+        }
+
+        &__btn {
+          button {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  #style {
+    .style {
+      &--one {
+        h1 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #one {
+    background: url("/img/back white.png");
+
+    .one {
+      &--two {
+        &__three {
+          display: block;
+          text-align: center;
+
+          img {
+            padding: 10px 40px;
+          }
+        }
+      }
+    }
+  }
+}
+

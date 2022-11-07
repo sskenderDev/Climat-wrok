@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.scroll{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+.scrollToop-btn {
+  z-index: 999;
+  position: fixed;
+  color: #fff;
+  background: #131212;
+  border-radius: 3px;
+  width: 45px;
+  height: 45px;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 45px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.scrollToop-btn.active {
+  right: 20px;
+  opacity: 1;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+$b: #8DB932;
+$t: #45B2EA;
+
+
+@mixin btn {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  background: #8DB932;
+  border-radius: 10px;
+  border: none;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+@mixin btn1 {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #BDCFDB;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin btn3 {
+  width: 187px;
+  height: 51px;
+  background: #8DB932;
+  border-radius: 20px 0 0 20px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .4s;
+  border: none;
+  &:hover {
+    background: forestgreen;
+    cursor: pointer;
+  }
+}
+
+@mixin btn4 {
+  width: 155px;
+  height: 51px;
+  border-radius: 0 20px 20px 0;
+  margin-left: -5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #263238;
+  border: none;
+  &:hover {
+    background: white;
+    cursor: pointer;
+  }
+}
+
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin fd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
